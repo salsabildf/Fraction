@@ -1,6 +1,6 @@
 package fr.uvsq.groupe;
 
-<<<<<<< HEAD
+
 public final class Fraction {
 	private int denominateur;
 	private int numerateur;
@@ -22,9 +22,4 @@ public final class Fraction {
 	public String toString() {
 		return numerateur + "/" + denominateur;
 	}
-	
-=======
-public class Fraction {
->>>>>>> 8baeee419f8adba5d9d58177e2bb057555180fc0
-
 }
