@@ -1,15 +1,25 @@
 package fr.uvsq.groupe;
 
-
 public final class Fraction {
-	private int denominateur;
+	
 	private int numerateur;
+	private int denominateur;
+	
+	public Fraction(int num){
+		numerateur = num;
+		denominateur = 1;	
+	}
+	
+	public Fraction () {
+	numerateur = 0;
+	denominateur = 1;
+	}
 	
 	public Fraction(int num, int den) {
 		this.numerateur = num;
 		this.denominateur = den;
-		
 	}
+
 	
 	public int getDenominateur() {
 		return denominateur;

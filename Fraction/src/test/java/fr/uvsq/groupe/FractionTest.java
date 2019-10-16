@@ -19,6 +19,12 @@ public class FractionTest {
 	}
 	
 	@Test
+	public void constructeur_denominateur_par_defaut() {
+		Fraction f = new Fraction(5);
+		assertEquals (5, f.getNumerateur());
+		assertEquals (1, f.getDenominateur());
+	}
+		
 	public void testDenominateur() {
 		assertEquals(4,f.getDenominateur());
 	}
